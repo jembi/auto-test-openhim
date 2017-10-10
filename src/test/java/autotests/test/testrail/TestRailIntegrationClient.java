@@ -15,10 +15,11 @@ public class TestRailIntegrationClient {
     private static TestRailIntegrationClient myself = new TestRailIntegrationClient();
 
     //Projects
-    private static final int AUTOMATION_PROJECT_ID = 8;
+    //Go into testrail and use the ID's based on the
+    private static final int AUTOMATION_PROJECT_ID = 4;
 
     //Suites
-    private static final int AUTOMATION_SUITE_ID = 14;
+    private static final int AUTOMATION_SUITE_ID = 4;
 
 
     //Section

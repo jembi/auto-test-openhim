@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="auto-tests" />
+        <module name="auto-tests-openhim" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="auto-tests" target="1.8" />
+      <module name="auto-tests-openhim" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
