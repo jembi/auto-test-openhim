@@ -40,8 +40,8 @@ public class AdditionalConditions {
     }
 
     public static void waitOnAngular(WebDriver driver){
-//        WebDriverWait wait = new WebDriverWait(driver, 15, 100);
-//        wait.until(AdditionalConditions.angularHasFinishedProcessing());
+     // WebDriverWait wait = new WebDriverWait(driver, 15, 100);
+     //  wait.until(AdditionalConditions.angularHasFinishedProcessing());
         ((JavascriptExecutor) driver).executeAsyncScript(script, new Object[0]);
 
     }
