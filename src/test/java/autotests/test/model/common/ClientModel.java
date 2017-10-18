@@ -28,11 +28,10 @@ public class ClientModel {
     }
     public void saveClientPage(){
         DriverFunctions.waitForElement(Hooks.driver,By.xpath("//button[@ng-click='submitFormClients()']"));
-
         saveClientPage.click();
     }
 
-    //
+    //Client Details
     public void addClientID(String clientID){
         DriverFunctions.waitForElement(Hooks.driver,By.cssSelector("[ng-model*='client.clientID']"));
         String uniqueclientID = clientID + new Date().toString();

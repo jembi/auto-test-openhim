@@ -3,7 +3,7 @@ Feature: Test login and logout functionality
   @openhim
   Scenario: Login with valid user details.
     Given I add the test case IDs to the shared storage for hiptest reporting
-      | project | suite  | section | test-case-id |
+      | project | suite           | section | test-case-id |
       | Openhim | Console Testing | Login   | 681          |
     When I navigate to the openhim landing page
     And I enter username of
@@ -14,11 +14,10 @@ Feature: Test login and logout functionality
     Then I am confronted by the openhim-dashboard
 
 
-
   @openhim
   Scenario: Login with valid user details.
     Given I add the test case IDs to the shared storage for hiptest reporting
-      | project | suite  | section | test-case-id |
+      | project | suite           | section | test-case-id |
       | Openhim | Console Testing | Login   | 703          |
     When I navigate to the openhim landing page
     And I enter username of
