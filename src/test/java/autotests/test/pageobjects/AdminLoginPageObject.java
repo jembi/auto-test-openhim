@@ -1,14 +1,10 @@
 package autotests.test.pageobjects;
 
-import autotests.test.helpers.DriverFunctions;
-import com.fasterxml.jackson.databind.ser.Serializers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-
-import java.sql.Driver;
 
 public class AdminLoginPageObject extends BasePage {
 

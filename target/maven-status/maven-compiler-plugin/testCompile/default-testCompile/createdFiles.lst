@@ -1,4 +1,5 @@
 autotests\test\model\common\CommonModel.class
+autotests\test\pageobjects\ClientPageObject.class
 autotests\test\step_definitions\common\CommonSteps.class
 autotests\test\pageobjects\TestPageObject.class
 autotests\test\step_definitions\common\TestStepDefinition.class
@@ -10,11 +11,13 @@ autotests\test\helpers\SharedStorage.class
 autotests\test\helpers\CustomLocators.class
 autotests\test\helpers\PropertiesUtil.class
 autotests\test\RunCukesTest.class
+autotests\test\step_definitions\ClientStepDefinitions.class
 autotests\test\pageobjects\BasePage.class
 autotests\test\model\common\AdminLoginModel.class
 autotests\test\step_definitions\AdminLoginStepDefinitions.class
 autotests\test\helpers\AdditionalConditions$1.class
 autotests\test\pageobjects\AdminLoginPageObject.class
+autotests\test\model\common\ClientModel.class
 autotests\test\helpers\Log.class
 autotests\test\helpers\DataHelper.class
 autotests\test\helpers\DriverFunctions.class

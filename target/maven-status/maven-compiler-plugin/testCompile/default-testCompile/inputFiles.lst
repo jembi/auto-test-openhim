@@ -4,6 +4,7 @@ C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\
 C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\pageobjects\TestPageObject.java
 C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\step_definitions\common\CommonSteps.java
 C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\helpers\DriverFunctions.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\model\common\ClientModel.java
 C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\RunCukesTest.java
 C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\helpers\DataHelper.java
 C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\pageobjects\AdminLoginPageObject.java
@@ -14,6 +15,8 @@ C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\
 C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\model\common\CommonModel.java
 C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\helpers\AdditionalConditions.java
 C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\helpers\PropertiesUtil.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\step_definitions\ClientStepDefinitions.java
+C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\pageobjects\ClientPageObject.java
 C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\step_definitions\AdminLoginStepDefinitions.java
 C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\model\common\AdminLoginModel.java
 C:\Users\Jono\Documents\Automation Frameworks\Generic Project\auto-test-openhim\src\test\java\autotests\test\model\common\TestPageModel.java

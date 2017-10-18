@@ -3,9 +3,6 @@ package autotests.test.step_definitions;
 import autotests.test.helpers.AdditionalConditions;
 import autotests.test.model.common.ClientModel;
 import autotests.test.model.common.CommonModel;
-
-
-import autotests.test.pageobjects.AdminLoginPageObject;
 import autotests.test.pageobjects.ClientPageObject;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Then;
@@ -57,6 +54,39 @@ public class ClientStepDefinitions {
     public void save_the_client() throws Throwable {
         AdditionalConditions.waitOnAngular(Hooks.driver);
         clientModel.saveClientPage();
+    }
+
+    //Editing the client
+    @Then("^click on a client row$")
+    public void click_on_a_client_row() throws Throwable {
+            clientModel.clickEditClientRow();
+
+    }
+
+    @Then("^I edit the Client Details$")
+    public void i_edit_the_Client_Details(DataTable dataTable) throws Throwable {
+        PageFactory.initElements(Hooks.driver, ClientPageObject.class);
+        AdditionalConditions.waitOnAngular(Hooks.driver);
+
+
+        //Add Details for the Client
+
+        String clientName = dataTable.asMaps(String.class, String.class).get(0).get("clientName");
+        String clientOrganisation = dataTable.asMaps(String.class, String.class).get(0).get("clientOrganisation");
+        String softwareName = dataTable.asMaps(String.class, String.class).get(0).get("softwareName");
+        String Description = dataTable.asMaps(String.class, String.class).get(0).get("Description");
+        String Location = dataTable.asMaps(String.class, String.class).get(0).get("Location");
+        String contactPerson = dataTable.asMaps(String.class, String.class).get(0).get("contactPerson");
+        //Insert details into model
+
+        clientModel.addClientName(clientName);
+        clientModel.addclientOrganisation(clientOrganisation);
+        clientModel.addsoftwareName(softwareName);
+        clientModel.addDescription(Description);
+        clientModel.addLocation (Location );
+        clientModel.addcontactPerson(contactPerson);
+
+
     }
 
     @Then("^and a Role name$")

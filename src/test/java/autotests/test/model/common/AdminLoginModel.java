@@ -4,7 +4,6 @@ import autotests.test.helpers.DriverFunctions;
 import autotests.test.pageobjects.AdminLoginPageObject;
 import autotests.test.step_definitions.Hooks;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 import static autotests.test.step_definitions.Hooks.driver;
 

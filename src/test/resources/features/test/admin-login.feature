@@ -4,7 +4,7 @@ Feature: Test login and logout functionality
   Scenario: Login with valid user details.
     Given I add the test case IDs to the shared storage for hiptest reporting
       | project | suite  | section | test-case-id |
-      | Openhim | Master | Login   | 440          |
+      | Openhim | Console Testing | Login   | 681          |
     When I navigate to the openhim landing page
     And I enter username of
       | username         |
@@ -19,7 +19,7 @@ Feature: Test login and logout functionality
   Scenario: Login with valid user details.
     Given I add the test case IDs to the shared storage for hiptest reporting
       | project | suite  | section | test-case-id |
-      | Openhim | Master | Login   | 455          |
+      | Openhim | Console Testing | Login   | 703          |
     When I navigate to the openhim landing page
     And I enter username of
       | username         |

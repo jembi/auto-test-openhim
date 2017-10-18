@@ -5,11 +5,7 @@ import autotests.test.helpers.PropertiesUtil;
 import autotests.test.model.common.TestPageModel;
 import autotests.test.step_definitions.Hooks;
 import cucumber.api.DataTable;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.When;
-import org.hamcrest.MatcherAssert;
-
-import static org.hamcrest.Matchers.endsWith;
 
 public class TestStepDefinition {
 

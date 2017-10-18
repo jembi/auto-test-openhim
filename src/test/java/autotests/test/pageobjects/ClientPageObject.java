@@ -1,13 +1,10 @@
 package autotests.test.pageobjects;
 
-import autotests.test.helpers.DriverFunctions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-
-import java.sql.Driver;
 
 public class ClientPageObject extends BasePage {
     public ClientPageObject(WebDriver driver) {
@@ -26,6 +23,9 @@ public class ClientPageObject extends BasePage {
 
     @FindBy(how = How.XPATH, using = "//button[@ng-click='submitFormClients()']")
     public static WebElement saveClientPage;
+
+    @FindBy(how = How.XPATH, using = "//*[@id='no-more-tables']/table/tbody/tr[1]/td[10]/button[1]")
+    public static WebElement editClientButton;
 
 
     //driver.findElement(By.cssSelector("[ng-model*='TransationModeId']"));

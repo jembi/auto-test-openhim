@@ -19,7 +19,7 @@ public class TestRailIntegrationClient {
     private static final int AUTOMATION_PROJECT_ID = 4;
 
     //Suites
-    private static final int AUTOMATION_SUITE_ID = 4;
+    private static final int AUTOMATION_SUITE_ID = 51;
 
 
     //Section
@@ -76,7 +76,7 @@ public class TestRailIntegrationClient {
     public void addResultToSuite(String suite, Integer testCaseId, boolean passed) {
 
         switch (suite) {
-            case "Master":
+            case "Console Testing":
                 addResultToRun(testCaseId, passed, genericTestRun);
                 break;
                 default: {
